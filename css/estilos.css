@@ -1,0 +1,160 @@
+/* começo do header*/
+
+.logo {
+    position: relative;
+    float: left;
+}
+
+header {
+    background-color: white;
+}
+
+.contanier {
+    margin: 0 auto;
+    border: solid #D6D6D6;
+    width: 900px;
+    list-style: none;
+}
+
+/* lista do header*/
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-size: 14px;
+    padding-left: 35px;
+    text-align: left;
+    width: 140px;
+    position: absolute;
+    top: 12px;
+    right: 250px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+.lista1 {
+    font-size: 15px;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.lista1 ul li {
+    display: inline;
+}
+
+.lista1 ul li a {
+    border-left: 3px solid #EA0000;
+    padding: 6px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+}
+
+.lista1 ul li a:hover {
+    padding-right: 20px;
+    background-color: #D6D6D6;
+    color: #EA0000;
+    border-bottom: 3px solid #EA0000;
+}
+
+/* Fim do header*/
+
+/* inicio do body*/
+
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.busca, .menu-departamentos {
+    margin-left: 170px;
+    padding-right: 50px;
+    padding-bottom: 9px;
+    background-color: #c9c8c8;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+	width: 250px;
+}
+
+.busca h2, .busca form, .menu-departamentos h2 {
+    margin: 10px;
+}
+
+.destaque li{
+    background-color: #c9c8c8;
+}
+
+.menu-departamentos {
+    padding-right: auto;
+    width: 250px;
+    clear: left;
+}
+
+.menu-departamentos li {
+    display:	inline-block;
+    vertical-align:	top;
+    width: 250px;
+    margin: 2px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 6px;   
+}
+
+.menu-departamentos a {
+    clear: left;
+    border-left: 3px solid #EA0000;
+    padding: 6px 20px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-departamentos a:hover {
+    padding: 10px;
+    background-color: #D6D6D6;
+    color: #EA0000;
+    border-bottom: 3px solid #EA0000;
+}
+
+
+.big-city{
+    width: 700px;
+    height: 440px;
+}
+
+body {
+    color: #333333;
+    font-family: "Lucida	Sans	Unicode", "Lucida	Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bdbebd2f;
+}
+
+/*fim do body*/
+
+/* rodape*/
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+/*fim do rodape*/

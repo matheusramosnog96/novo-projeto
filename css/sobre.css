@@ -1,0 +1,161 @@
+/* começo do header*/
+
+
+.logo {
+    position: relative;
+    float: left;
+}
+
+header {
+    background-color: white;
+}
+
+.contanier {
+    margin: 0 auto;
+    border: solid #D6D6D6;
+    width: 900px;
+    list-style: none;
+}
+
+/* lista do header*/
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-size: 14px;
+    padding-left: 35px;
+    text-align: left;
+    width: 140px;
+    position: absolute;
+    top: 12px;
+    right: 250px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+.lista1 {
+    font-size: 15px;
+    margin-top: 75px;
+    margin-left: 185px;
+}
+
+.lista1 ul li {
+    display: inline;
+}
+
+.lista1 ul li a {
+    border-left: 3px solid #EA0000;
+    padding: 6px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+}
+
+.lista1 ul li a:hover {
+    padding-right: 20px;
+    background-color: #D6D6D6;
+    color: #EA0000;
+    border-bottom: 3px solid #EA0000;
+}
+
+
+/* Fim do header*/
+
+/*body*/
+
+body {
+    color: #333333; font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1040px;
+    background-color: rgba(189, 190, 189, 0.185);
+}
+
+/*
+p {
+    padding: 10px 20px 15px 5px;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+*/
+
+#centro-distribuicao {
+    float: left;
+}
+
+#familia-pelho {
+    float: left;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid rgb(204, 204, 204);
+    text-align: bottom;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+h2 {
+    text-align: left;
+    border-bottom: 2px solid #333333;
+    color: brown;
+}
+
+h1 {
+    width: 1000px;
+    height: 20px;
+    text-align: left;
+    background-image: url(img/sobre-background.jpg);
+}
+
+#texto {
+    border: 5px solid rgba(204, 204, 204, 50%);
+    font-size: 25px;
+    width: 1000px;
+    /*nao utilado. 
+        serve par colocar uma div do aldo da outra
+    display: inline-block;
+    margin-left: -4;
+    vertical-align: top;
+    box-sizing: border-box;*/
+}
+
+.mirror {
+    margin-left: 0 0 0 0;
+}
+
+#texto2 {
+    font-size: 17px;
+    width: 640px;
+}
+
+/*body*/
+
+/* rodape*/
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+/*fim do rodape*/
