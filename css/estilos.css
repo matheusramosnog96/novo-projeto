@@ -71,7 +71,6 @@ header {
 
 /* inicio do body*/
 
-
 .busca input[type=search] {
     width: 170px;
 }
@@ -84,14 +83,14 @@ header {
     float: left;
     font-weight: bold;
     text-transform: uppercase;
-	width: 250px;
+    width: 250px;
 }
 
 .busca h2, .busca form, .menu-departamentos h2 {
     margin: 10px;
 }
 
-.destaque li{
+.destaque li {
     background-color: #c9c8c8;
 }
 
@@ -102,14 +101,14 @@ header {
 }
 
 .menu-departamentos li {
-    display:	inline-block;
-    vertical-align:	top;
+    display: inline-block;
+    vertical-align: top;
     width: 250px;
     margin: 2px;
     padding-bottom: 10px;
     display: inline-block;
     font-size: 17px;
-    margin-bottom: 6px;   
+    margin-bottom: 6px;
 }
 
 .menu-departamentos a {
@@ -127,8 +126,7 @@ header {
     border-bottom: 3px solid #EA0000;
 }
 
-
-.big-city{
+.big-city {
     width: 700px;
     height: 440px;
 }
@@ -139,6 +137,50 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #bdbebd2f;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.novidades {
+    float: left;
+}
+
+.mais-vendidos {
+    float: right;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.novidades {
+    background-color: #F5DCDC;
+}
+
+.mais-vendidos {
+    background-color: #DCDCF5;
 }
 
 /*fim do body*/
