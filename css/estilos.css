@@ -183,9 +183,57 @@ body {
     background-color: #DCDCF5;
 }
 
+input[value] {
+    color: #CC0000;
+}
+
+input[type="text"] {
+    border-radius: 4px;
+}
+
+/* editar as classes que tenha a palavra "menu' */
+
+div[class|="menu"] {
+    border-radius: 4px;
+}
+
+input[value~="problema"] {
+    color: #CC0000;
+}
+
+/*	busca por inputs com valor de "name" iniciando em "usuario"*/
+
+input[name^="usuario"] {
+    color: #99FFCC;
+}
+
+/*	busca por inputs com valor de "name" terminando em "teste"*/
+
+input[name$="teste"] {
+    background-color: #CCFF00;
+}
+
+/*	busca por inputs com valor do atributo "name"
+4.10 SELETORES DE ATRIBUTO DO CSS3
+. contendo "tela" em qualquer posição*/
+
+input[name*="tela"] {
+    color: #666666;
+}
+
 /*fim do body*/
 
 /* rodape*/
+
+.facebook {
+    /*	tamanho	do	elemento	=	imagem	*/
+    height: 55px;
+    width: 85px;
+    /*	imagem	como	fundo	*/
+    background-image: url(../img/facebook.png);
+    /*	retirando	o	texto	da	frente	*/
+    text-indent: -9999px;
+}
 
 #rodape {
     color: #777;
