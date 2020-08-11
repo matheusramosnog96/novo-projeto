@@ -1,6 +1,5 @@
 /* começo do header*/
 
-
 .logo {
     position: relative;
     float: left;
@@ -68,13 +67,13 @@ header {
     border-bottom: 3px solid #EA0000;
 }
 
-
 /* Fim do header*/
 
 /*body*/
 
 body {
-    color: #333333; font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 1040px;
@@ -146,16 +145,49 @@ h1 {
 
 /* rodape*/
 
-#rodape {
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
+footer {
+    clear: both;
+    background-image: url(../img/fundo-rodape.png);
+    padding: 20px 0;
 }
 
-#rodape img {
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
+footer .contanier {
+    position: relative;
 }
 
+.contanier {
+    position: relative;
+}
+
+.social {
+    float: right;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a {
+    /*	tamanho	da	imagem	*/
+    height: 32px;
+    width: 32px;
+    /*	image	replacement	*/
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../img/googleplus.png);
+}
+
+/*#rodape {
 /*fim do rodape*/
