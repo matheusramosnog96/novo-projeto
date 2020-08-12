@@ -6,6 +6,11 @@ p::first-letter {
 }
 */
 
+body {
+    background-color: white;
+    color: black;
+}
+
 .logo {
     position: relative;
     float: left;
@@ -149,6 +154,15 @@ p {
     border-bottom: 3px solid #EA0000;
 }
 
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+    margin-top: 10px;
+}
+
 .big-city {
     width: 700px;
     height: 440px;
@@ -183,7 +197,6 @@ body {
 /* mostrar sombra */
 
 .painel li :hover {
-    
     /*zoom nas imagens*/
     transform: scale(1.07) rotate(-2deg);
     box-shadow: 0 0 5px #333;
@@ -215,6 +228,7 @@ body {
     /*	Alterar	a	escala	total	do	elemento	
     transform: scale(1.1);
 */
+    margin-left: 300px;
     float: left;
     background-color: #F5DCDC;
 }
