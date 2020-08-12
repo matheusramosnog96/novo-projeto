@@ -6,6 +6,7 @@
 }
 
 header {
+    transform: translateX(100px);
     background-color: white;
 }
 
@@ -28,7 +29,12 @@ header {
     width: 140px;
     position: absolute;
     top: 12px;
-    right: 250px;
+    right: 320px;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.3;
 }
 
 .menu-opcoes ul {
@@ -69,15 +75,33 @@ header {
 
 /* Fim do header*/
 
+/* adcionar estilos nos links
+
+a:link {
+    background-color: #FF0000;
+}
+
+	seleciona	todos	os	links	cujo	valor	de	"href"	é	um	endereço	já	visitado	
+
+a:visited {
+    background-color: #00FF00;
+}
+
+	seleciona	o	link	no	exato	momento	em	que	clicamos	nele	
+
+a:active {
+    background-color: #0000FF;
+}
+*/
+
 /*body*/
 
 body {
     color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida	Sans	Unicode", "Lucida	Grande", sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 1040px;
-    background-color: rgba(189, 190, 189, 0.185);
+    background-color: #bdbebd2f;
 }
 
 /*
@@ -146,9 +170,10 @@ h1 {
 /* rodape*/
 
 footer {
-    clear: both;
+    transform: translate(0px, -20px);
+     clear: both;
     background-image: url(../img/fundo-rodape.png);
-    padding: 20px 0;
+    /*padding: 20px 0;*/
 }
 
 footer .contanier {
