@@ -6,6 +6,53 @@ p::first-letter {
 }
 */
 
+/*	adicionar	aqui	os	novos	estilos	para	mobile	*/
+
+@media (min-width: 720px) {
+    header h1 {
+        text-align: left;
+    }
+    .menu-opcoes {
+        position: absolute;
+    }
+    .sacola {
+        display: block;
+    }
+    .painel li {
+        width: 15%;
+    }
+    .menu-departamentos nav>ul {
+        column-count: 1;
+    }
+}
+
+@media (max-width: 320px) {
+    /*	adicionar	aqui	os	novos	estilos	para	mobile	*/
+    header h1 {
+        text-align: center;
+    }
+    .sacola {
+        display: none;
+    }
+    .menu-opcoes {
+        position: static;
+        text-align: center;
+    }
+    .menu-opcoes ul li {
+        display: inline-block;
+        margin: 5px;
+    }
+    .busca, .menu-departamentos, .banner-destaque img {
+        margin-right: 0;
+    }
+    .painel {
+        width: auto;
+    }
+    .painel img {
+        width: 100%;
+    }
+}
+
 body {
     background-color: white;
     color: black;
