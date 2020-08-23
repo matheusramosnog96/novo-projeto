@@ -149,17 +149,6 @@ p {
     width: 170px;
 }
 
-.busca, .menu-departamentos {
-    margin-left: 170px;
-    padding-right: 50px;
-    padding-bottom: 9px;
-    background-color: #c9c8c8;
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: 250px;
-}
-
 .busca h2, .busca form, .menu-departamentos h2 {
     margin: 10px;
 }
@@ -169,29 +158,29 @@ p {
 }
 
 .menu-departamentos {
-    padding-right: auto;
-    width: 250px;
+    clear: left;
     clear: left;
 }
 
-.menu-departamentos li {
-    display: inline-block;
-    vertical-align: top;
+.busca, .menu-departamentos {
+    float: left;
+}
+
+.menu-departamentos {
+    clear: left;
+}
+
+.busca, .menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    padding-right: auto;
     width: 250px;
-    margin: 2px;
-    padding-bottom: 10px;
-    display: inline-block;
-    font-size: 17px;
-    margin-bottom: 6px;
 }
 
 .menu-departamentos a {
-    clear: left;
-    border-left: 3px solid #EA0000;
-    padding: 6px 20px;
     color: #333333;
-    top: 30px;
-    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .menu-departamentos a:hover {
@@ -210,10 +199,7 @@ p {
     margin-top: 10px;
 }
 
-.big-city {
-    width: 700px;
-    height: 440px;
-}
+
 
 body {
     color: #333333;
